@@ -1,7 +1,9 @@
+# **CREATE SCHEMA**
 DROP SCHEMA IF EXISTS pizza_runner;
 CREATE SCHEMA pizza_runner;
 use pizza_runner;
 
+# **CREATE TABLE** 
 DROP TABLE IF EXISTS runners;
 CREATE TABLE runners (
   runner_id INTEGER,
